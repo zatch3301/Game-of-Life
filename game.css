@@ -12,13 +12,13 @@ body {
 }
 	
 table {
-	background-color: #b4bfb7;
+	background-color: #4d4646;
 	border-spacing: 0;
 }
 
 td {
-	border: 1px solid #ebf2ee;
-	border-radius: 5px;
+	border: 1px solid #929aab;
+	border-radius: 0px;
 	width: 10px;
 	height: 10px;
 }
@@ -34,7 +34,7 @@ span{
 	padding:  .75em;
 	border-radius: 5px;
 	border: none;
-	background: #1ed9a7;
+	background: #71a0a5;
 }
 
 td.dead{
@@ -42,8 +42,8 @@ td.dead{
 }
 
 td.live {
-	background-color: #727a76;
-	border-radius: 10px;
+	background-color: #d8dfe2;
+	border-radius: 0px;
 }
 
 ul {
