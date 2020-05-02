@@ -1,0 +1,51 @@
+
+body {
+	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    text
+	
+}
+
+#gridContainer {
+	padding-bottom: 10px;
+}
+	
+table {
+	background-color: #b4bfb7;
+	border-spacing: 0;
+}
+
+td {
+	border: 1px solid #ebf2ee;
+	border-radius: 5px;
+	width: 10px;
+	height: 10px;
+}
+
+span{
+	color: #ffffff;
+}
+
+#start,
+#clear,
+#random {
+
+	padding:  .75em;
+	border-radius: 5px;
+	border: none;
+	background: #1ed9a7;
+}
+
+td.dead{
+	background-color: transparent;	
+}
+
+td.live {
+	background-color: #727a76;
+	border-radius: 10px;
+}
+
+ul {
+	color: #ffff;
+}
