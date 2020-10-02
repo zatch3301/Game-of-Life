@@ -1,4 +1,4 @@
-
+//body
 body {
 	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
     background-size: cover;
@@ -45,7 +45,7 @@ td.live {
 	background-color: #d8dfe2;
 	border-radius: 0px;
 }
-
+//ul
 ul {
-	color: #ffff;
+	color: white;
 }
