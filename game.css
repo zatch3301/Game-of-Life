@@ -1,11 +1,7 @@
 body {
-  background-image: linear-gradient(
-      rgba(62, 20, 20, 0.4),
-      rgba(62, 20, 20, 0.4)
-    ),
-    url(back.jpg);
-  background-size: cover;
-  background-position: center;
+	background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #gridContainer {
@@ -28,13 +24,28 @@ span {
   color: #ffffff;
 }
 
+.controls {
+	width: 30vw;
+	margin: 0 auto;	
+}
+
 #start,
 #clear,
 #random {
-  padding: 0.75em;
-  border-radius: 5px;
-  border: none;
-  background: #71a0a5;
+	padding:  .75em;
+	border-radius: 5px;
+	border: none;
+	background: #71a0a5;
+	font-size: 1.5rem;
+	width: 10rem;
+	margin-bottom: 1rem;
+}
+
+#start:hover,
+#clear:hover,
+#random:hover {
+	cursor: pointer;
+	opacity: 0.9;
 }
 
 td.dead {
@@ -72,4 +83,25 @@ ul {
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+}
+
+/* --- Instruction Styles --- */
+.instruction-container {
+	width: 65vw;
+	margin: 2rem auto;
+}
+.instructions {
+	margin-left: 2rem;
+	padding-bottom: 2rem;
+}
+#game-of-life-link:link {
+	text-decoration: none;
+	text-align: center;
+}
+p {
+	line-height: 2;
+}
+ol {
+	list-style-type: none;
+	line-height: 2;
 }
