@@ -32,12 +32,12 @@ span {
 #start,
 #clear,
 #random {
-	padding:  .75em;
+	padding:  .5em;
 	border-radius: 5px;
 	border: none;
 	background: #71a0a5;
-	font-size: 1.5rem;
-	width: 10rem;
+	font-size: 1rem;
+	width: 7rem;
 	margin-bottom: 1rem;
 }
 
