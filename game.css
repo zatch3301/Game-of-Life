@@ -61,30 +61,6 @@ ul {
   color: #ffff;
 }
 
-.heading-container {
-  display: flex;
-  justify-content: center;
-  color: #ebecf0;
-  font-family: verdana;
-}
-
-.controls {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  margin: 0 auto;
-  justify-content: space-evenly;
-}
-
-.rules-container {
-  background-color: #e6e6fa;
-  background-blend-mode: luminosity;
-  color: #000;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
 /* --- Instruction Styles --- */
 .instruction-container {
 	width: 65vw;
