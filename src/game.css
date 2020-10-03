@@ -21,13 +21,9 @@ td {
 	height: 10px;
 }
 
-span{
-	color: #ffffff;
-}
-
 .controls {
-	width: 30vw;
-	margin: 0 auto;	
+	width: 35vw;
+	margin: 0 auto;
 }
 
 #start,
@@ -37,6 +33,7 @@ span{
 	border-radius: 5px;
 	border: none;
 	background: #71a0a5;
+	color: #ffffff;
 	font-size: 1.5rem;
 	width: 10rem;
 	margin-bottom: 1rem;
@@ -69,11 +66,11 @@ ul {
 }
 .instructions {
 	margin-left: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 #game-of-life-link:link {
 	text-decoration: none;
-	text-align: center;
+	color: #3623a1;
 }
 p {
 	line-height: 2;
@@ -81,4 +78,10 @@ p {
 ol {
 	list-style-type: none;
 	line-height: 2;
+}
+
+/* --- Foot tag Styles --- */
+#foot-tag {
+	text-align: center;
+	margin-top: 5rem;
 }
