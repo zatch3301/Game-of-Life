@@ -60,6 +60,10 @@ td.live {
 ul {
   color: #ffff;
 }
+.heading-container{
+	color: #d9dbd5;
+	text-align: center;
+}
 
 /* --- Instruction Styles --- */
 .instruction-container {
