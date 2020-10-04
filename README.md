@@ -1,5 +1,11 @@
-# Game-of-Life--Cellular-Automaton
-### [Play](https://zatch3301.github.io/Game-of-Life/)
+ <h1 align="center" color="gray">THE GAME OF LIFE</h1>
+  <p align="center"><img src="/images/object.gif"></img></p>
+
+ <h6 align="center" color="powderblue">
+ <a href="https://zatch3301.github.io/Game-of-Life/">play now</a>
+ </h4>
+
+
 ## Description
 The Game of Life, also known simply as Life, is a cellular automaton by [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 This is a zero-player game, that its evolution is determined by its initial state, with no further input.
@@ -19,3 +25,16 @@ Every cell interacts with its eight neighbors, which are the cells that are hori
 * All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+
+## How to Play:
+1. Click [here](https://zatch3301.github.io/Game-of-Life/)
+2. Click on the grid to add squares.
+3. If you don't want to spend forever adding squares, click the "Random" button.  It'll randomly fill the grid with squares.
+
+## Tips!
+* Not sure what to do?  Check out [this Wikipedia link](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns) for things you can build.
+* If you're adding squares manually, try to avoid putting squares on their own - they'll die immediately in the first generation. 
+
+
+
+<h6>Credits: Images from Wikimedia</h6>
