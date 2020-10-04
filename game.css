@@ -20,10 +20,6 @@ td {
   height: 10px;
 }
 
-span {
-  color: #ffffff;
-}
-
 .controls {
 	width: 35vw;
 	margin: 0 auto;
@@ -86,7 +82,6 @@ ol {
 	list-style-type: none;
 	line-height: 2;
 }
-
 
 /* --- Foot tag Styles --- */
 #foot-tag {
